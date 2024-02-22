@@ -9,7 +9,7 @@ const Content = () => (
     <Experience />
     <Projects />
     <Education />
-    <footer className="pt-10 text-sm">
+    <footer className="pt-20 text-sm">
       Built with{" "}
       <a href="https://react.dev" target="_blank" className="external-link">
         React

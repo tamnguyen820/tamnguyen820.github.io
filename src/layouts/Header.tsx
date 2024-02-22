@@ -14,7 +14,7 @@ const Header = () => (
     <div>
       <h1 className="text-5xl font-bold">Tam Nguyen</h1>
       <h2 className="mt-3 text-2xl font-medium">Software Engineer</h2>
-      <p className="mt-3">
+      <p className="mt-3 pb-2">
         Excited to build software with new cool
         <span className="italic"> blazingly fast</span> technologies. And to
         play more badminton.
