@@ -5,7 +5,7 @@ import { ProjectItem } from "data/models";
 import { projectsData } from "data/projects";
 
 const Project = (item: ProjectItem) => (
-  <li className="mb-8 flex justify-between gap-3">
+  <li className="mb-10 justify-between gap-3 sm:flex">
     <div>
       <h4 className="text-base font-medium">
         <a
@@ -30,7 +30,7 @@ const Project = (item: ProjectItem) => (
       src={item.imageUrl}
       alt={`${item.name}-project-image`}
       draggable="false"
-      className="h-32 cursor-auto rounded-lg border-4 border-[#1d4a2f] object-cover align-middle"
+      className="mt-2 h-32 cursor-auto rounded-lg border-4 border-[#1d4a2f] sm:mt-0"
     />
   </li>
 );
