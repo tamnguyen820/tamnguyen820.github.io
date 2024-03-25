@@ -37,7 +37,7 @@ const Header = () => (
     </div>
 
     <div className="mt-3">
-      <a href="/resume.pdf" target="_blank">
+      <a href="/Tam_Nguyen_Resume.pdf" target="_blank">
         <span className="inline-block font-semibold underline underline-offset-2">
           View my resume
           <img
