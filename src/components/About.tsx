@@ -5,10 +5,10 @@ const About = () => (
     <div>
       <SectionHeader name="About" href="#about" />
       <p>
-        Hey, you are finally here! My name is Tam and I'm a 4<sup>th</sup> year
-        Computer Science student at the University of Waterloo. During my
-        undergraduate studies, I've had the opportunity to work 5 internships
-        at:{" "}
+        Hey, you are finally here! My name is Tam and I'm a recent graduate with
+        a Bachelor of Computer Science degree from the University of Waterloo.
+        During my undergraduate studies, I've had the opportunity to work 5
+        internships at:{" "}
       </p>
       <ul className="my-3 list-disc pl-8">
         <li>
