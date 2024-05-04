@@ -7,7 +7,7 @@ export const educationData: SchoolItem[] = [
     degree: "Bachelor of Computer Science, Honours Co-op",
     fromDate: new Date("2020-09-05"),
     toDate: new Date("2024-04-30"),
-    description: ["GPA: 89%"],
+    description: ["GPA: 3.93/4.00 (88%)"],
   },
   {
     name: "University of New Brunswick",
@@ -18,7 +18,7 @@ export const educationData: SchoolItem[] = [
     description: [
       "GPA: 4.2/4.3, Dean's List",
       "Entrance Scholarships, Academic Scholarships, Enriched Calculus Grant",
-      "Transferred to UW",
+      "Transferred to UWaterloo",
     ],
   },
 ];
