@@ -1,4 +1,5 @@
 import { ProjectItem } from "./models";
+import techgo from "assets/images/techgo.png";
 import vchess from "assets/images/vchess.png";
 import translatify from "assets/images/translatify.png";
 import threebodyproblem from "assets/images/threebodyproblem.png";
@@ -8,6 +9,13 @@ import spaceinvaders from "assets/images/spaceinvaders.png";
 import tictactoe from "assets/images/tictactoe.png";
 
 export const projectsData: ProjectItem[] = [
+  {
+    name: "TechGo",
+    imageUrl: techgo,
+    site: "https://github.com/tamnguyen820/techgo",
+    description: `Terminal-based application to aggregate and browse tech news articles from multiple RSS feeds.`,
+    tools: ["Go", "Docker", "Bubble Tea"],
+  },
   {
     name: "VChess",
     imageUrl: vchess,
@@ -21,6 +29,7 @@ export const projectsData: ProjectItem[] = [
       "Node.js",
       "Express.js",
       "MongoDB",
+      "Python",
     ],
   },
   {

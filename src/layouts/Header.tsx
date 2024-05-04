@@ -2,7 +2,7 @@ import GitHub from "assets/icons/github.svg";
 import LinkedIn from "assets/icons/linkedin.svg";
 import Email from "assets/icons/email.svg";
 import ArrowUpLeft from "assets/icons/arrow-up-left.svg";
-import Profile from "assets/images/profileEyesClosed.jpg";
+import Profile from "assets/images/gradPhoto-transformed.jpeg";
 
 import { navData } from "data/nav";
 
@@ -23,7 +23,7 @@ const Header = () => (
         src={Profile}
         alt="Profile picture"
         draggable="false"
-        className="my-[-20px] w-44 [clip-path:circle(40%)]"
+        className="my-[-20px] w-44 [clip-path:circle(43%)]"
       />
       <nav className="hidden text-right lg:flex lg:flex-row-reverse">
         <ul>
