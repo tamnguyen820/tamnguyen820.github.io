@@ -7,7 +7,10 @@ export const educationData: SchoolItem[] = [
     degree: "Bachelor of Computer Science, Honours Co-op",
     fromDate: new Date("2020-09-05"),
     toDate: new Date("2024-04-30"),
-    description: ["GPA: 3.83/4.00 (88%)"],
+    description: [
+      "GPA: 3.83/4.00 (88%)",
+      "Graduating with Dean's Honours Distinction",
+    ],
   },
   {
     name: "University of New Brunswick",
