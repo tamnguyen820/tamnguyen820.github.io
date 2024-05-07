@@ -58,7 +58,7 @@ export const jobsData: JobItem[] = [
     ],
   },
   {
-    title: "Front End Developer Intern",
+    title: "Software Developer Intern",
     company: "SS&C Technologies",
     site: "https://www.ssctech.com",
     fromDate: new Date("2022-01-05"),
@@ -70,7 +70,7 @@ export const jobsData: JobItem[] = [
     tools: ["Vue.js", "Vuex", "JavaScript", "Bootstrap", "Accessibility"],
   },
   {
-    title: "Front End Developer Intern",
+    title: "Software Developer Intern",
     company: "SS&C Technologies",
     site: "https://www.ssctech.com",
     fromDate: new Date("2021-05-05"),
