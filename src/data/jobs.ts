@@ -38,7 +38,7 @@ export const jobsData: JobItem[] = [
     ],
   },
   {
-    title: "Software Engineer Co-op",
+    title: "Software Engineer Intern",
     company: "Index Exchange",
     site: "https://www.indexexchange.com",
     fromDate: new Date("2022-09-05"),
