@@ -10,13 +10,6 @@ import tictactoe from "assets/images/tictactoe.png";
 
 export const projectsData: ProjectItem[] = [
   {
-    name: "TechGo",
-    imageUrl: techgo,
-    site: "https://github.com/tamnguyen820/techgo",
-    description: `Terminal-based application to aggregate and browse tech news articles from multiple RSS feeds.`,
-    tools: ["Go", "Docker", "Bubble Tea"],
-  },
-  {
     name: "VChess",
     imageUrl: vchess,
     site: "https://v-chess.netlify.app",
@@ -26,11 +19,18 @@ export const projectsData: ProjectItem[] = [
       "Vue.js",
       "Stockfish",
       "Socket.io",
-      "Node.js",
       "Express.js",
+      "Redis",
       "MongoDB",
       "Python",
     ],
+  },
+  {
+    name: "TechGo",
+    imageUrl: techgo,
+    site: "https://github.com/tamnguyen820/techgo",
+    description: `Terminal-based application to aggregate and browse tech news articles from multiple RSS feeds.`,
+    tools: ["Go", "Docker", "Bubble Tea"],
   },
   {
     name: "Translatify",
